@@ -1,0 +1,22 @@
+uuid: 5ed56137-fe9d-4259-b740-1a3a57eb5e84
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mycustom_bs4_sass
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: mycustom_bs4_sass_help
+theme: mycustom_bs4_sass
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

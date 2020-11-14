@@ -1,0 +1,20 @@
+uuid: 87973a93-055e-405e-a814-10377fb8f647
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mycustom_bs4_sass
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: mycustom_bs4_sass_local_actions
+theme: mycustom_bs4_sass
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

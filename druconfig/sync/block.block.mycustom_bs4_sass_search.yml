@@ -1,0 +1,31 @@
+uuid: ebd6b4d4-bae5-4ce7-b73f-d3abdb6a79a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - system
+    - views
+  theme:
+    - mycustom_bs4_sass
+_core:
+  default_config_hash: UDHpza-uTXT90uUqIrgPDBW4XrHBA1XpzSBQyyRB2Yg
+id: mycustom_bs4_sass_search
+theme: mycustom_bs4_sass
+region: content
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:search-page'
+settings:
+  id: 'views_exposed_filter_block:search-page'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /search
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: d3309fcf-c478-4144-8786-c91491a95972
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mycustom_bs4_sass
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: mycustom_bs4_sass_content
+theme: mycustom_bs4_sass
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
