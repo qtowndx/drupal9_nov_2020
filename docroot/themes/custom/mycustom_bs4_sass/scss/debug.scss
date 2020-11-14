@@ -1,0 +1,52 @@
+
+
+/* Debugging 
+ MIXINS */
+
+// variables
+@import "variables";  
+// typography
+@import "typography";
+//bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+//material design bootstrap
+//@import "../node_modules/mdbootstrap/scss/mdb-free.scss";
+// barrio
+@import "barrio";
+//
+// Alternate buttons
+//
+@each $color,
+$value in $theme-colors {
+    .btn-#{$color} a {
+        @include button-variant($value, $value);
+    }
+}
+
+
+@each  $color, 
+$value in $theme-colors {
+    .btn-outline-#{$color} a {
+      @include button-outline-variant( $value);
+    }
+} 
+
+ 
+
+/* $colors is a map here */
+/*$colors: ('color1':#fff67, 'color2': #ff0, 'color3': #f0f);
+@each $key, $value in $colors 
+{
+  .#{$colors}-background 
+  {
+    background-color: $value;
+  }
+}   */
+
+/*$dexter:#ff00; 
+
+@debug $dexter;*/
+@debug map-keys($theme-colors);
+/*@debug primary map-get($theme-colors, 'primary');*/
+@debug map-values($theme-colors); 
+  

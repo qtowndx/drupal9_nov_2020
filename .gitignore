@@ -1,0 +1,24 @@
+# Ignore binaries.
+/bin
+
+# Ignore non-custom parts of Drupal.
+/docroot/core
+/docroot/libraries
+/docroot/modules/contrib
+/docroot/profiles/contrib
+/docroot/themes/contrib
+/docroot/sites/default/files
+
+# Ignore Composer-managed dependencies.
+vendor/
+node_modules
+
+#Added by DSemple
+#Ignore NPM managed dependencies in custom sutheme
+/docroot/themes/custom/mycustom_bs4_sass/node_modules
+
+# Ignore IDE files
+#/.vscode/
+
+# Ignore some css related stuff
+/docroot/themes/custom/mycustom_bs4_sass/css*.map
