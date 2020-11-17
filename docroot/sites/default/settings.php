@@ -783,4 +783,4 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$settings['config_sync_directory'] = '../../druconfig/sync';
+$settings['config_sync_directory'] = '../druconfig/sync';
